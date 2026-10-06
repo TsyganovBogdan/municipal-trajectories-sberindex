@@ -1,0 +1,135 @@
+{
+  "primary_model": {
+    "id": "Leiden_combined_k40_r0.4",
+    "method": "Leiden",
+    "view": "combined",
+    "neighbors": 40,
+    "resolution": 0.4
+  },
+  "overall_score_winner": {
+    "id": "KMeans_6",
+    "method": "KMeans",
+    "clusters": 6
+  },
+  "n": 2016,
+  "analysis_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "december_clusters": 3,
+  "raw_switch_events": 2653,
+  "robust_switch_events": 49,
+  "territories_with_robust_switch": 40,
+  "december_median_support": 1.0,
+  "median_marketplace_share_change_pp": 4.096331276028481,
+  "fraction_marketplace_share_increased": 1.0,
+  "median_nominal_total_growth_pct": 15.122595446977105,
+  "pca_variance_explained": [
+    0.3957249034971511,
+    0.16389766462759128
+  ],
+  "external_validation": {
+    "available": 2004,
+    "missing": 12,
+    "eta_squared_log_market_access": 0.3192385904196226,
+    "permuted_eta_median": 0.0007374974979190663,
+    "market_access_vs_marketplace_share_spearman": 0.11742039415606707,
+    "interpretation": "Описательное сопоставление кластеров с индексом доступности рынков, исключённым из признаков модели. Перестановки сохраняют размеры групп без учёта пространственной зависимости; статистическая значимость по ним не оценивается."
+  },
+  "edge_distances": {
+    "economic_edges_december": 61259,
+    "edges_with_road_distance": 60708,
+    "fraction_over_1000km": 0.4994069974303222,
+    "median_road_km": 998.0,
+    "geographic_baseline": {
+      "clusters": 21,
+      "minimum_size": 1,
+      "maximum_size": 425,
+      "SW": -0.10097212601658846,
+      "CH": 24.42796449434434,
+      "CH_per_N": 0.01211704588013112,
+      "S_Dbw": 0.5199934445381297,
+      "AVI": 0.15705052578155185,
+      "AVU": 0.23269132817250524,
+      "MQ": 0.23044725681640757,
+      "ARI_with_economic_partition": 0.07171109137910096,
+      "road_connected_territories": 2006
+    }
+  },
+  "elapsed_seconds": 154.424741241,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "25.0.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0"
+  },
+  "python": "3.12.14",
+  "config": {
+    "seed": 42,
+    "input_dir": "data/raw",
+    "output_dir": "results",
+    "development_months": [
+      "2024-01",
+      "2024-03",
+      "2024-06"
+    ],
+    "validation_months": [
+      "2024-07",
+      "2024-08",
+      "2024-09"
+    ],
+    "confirmation_months": [
+      "2024-10",
+      "2024-11",
+      "2024-12"
+    ],
+    "neighbors": [
+      20,
+      40
+    ],
+    "resolutions": [
+      0.4,
+      0.8,
+      1.2
+    ],
+    "baseline_clusters": [
+      4,
+      6,
+      8
+    ],
+    "graph_views": [
+      "profile",
+      "growth",
+      "combined"
+    ],
+    "reference_neighbors": 30,
+    "minimum_cluster_size": 20,
+    "allowed_cluster_count": [
+      3,
+      12
+    ],
+    "random_baselines": 20,
+    "stability_seeds": [
+      7,
+      19,
+      31,
+      43,
+      67
+    ],
+    "transition_support": 0.8,
+    "transition_min_effect": 0.5
+  }
+}

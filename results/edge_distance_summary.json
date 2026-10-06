@@ -1,0 +1,20 @@
+{
+  "economic_edges_december": 61259,
+  "edges_with_road_distance": 60708,
+  "fraction_over_1000km": 0.4994069974303222,
+  "median_road_km": 998.0,
+  "geographic_baseline": {
+    "clusters": 21,
+    "minimum_size": 1,
+    "maximum_size": 425,
+    "SW": -0.10097212601658846,
+    "CH": 24.42796449434434,
+    "CH_per_N": 0.01211704588013112,
+    "S_Dbw": 0.5199934445381297,
+    "AVI": 0.15705052578155185,
+    "AVU": 0.23269132817250524,
+    "MQ": 0.23044725681640757,
+    "ARI_with_economic_partition": 0.07171109137910096,
+    "road_connected_territories": 2006
+  }
+}

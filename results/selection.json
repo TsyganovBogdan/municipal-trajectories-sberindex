@@ -1,0 +1,15 @@
+{
+  "best_overall": {
+    "id": "KMeans_6",
+    "method": "KMeans",
+    "clusters": 6
+  },
+  "graph_model": {
+    "id": "Leiden_combined_k40_r0.4",
+    "method": "Leiden",
+    "view": "combined",
+    "neighbors": 40,
+    "resolution": 0.4
+  },
+  "score_rule": "0.4 attribute percentiles + 0.4 reference-graph percentiles + 0.2 seed-ARI percentile; development only"
+}

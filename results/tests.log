@@ -1,0 +1,14 @@
+test_complete_graph_partition (test_core.CoreTests.test_complete_graph_partition) ... ok
+test_density_index_distinguishes_mixed_partition (test_core.CoreTests.test_density_index_distinguishes_mixed_partition) ... ok
+test_disconnected_cliques (test_core.CoreTests.test_disconnected_cliques) ... ok
+test_future_data_cannot_change_past_features (test_core.CoreTests.test_future_data_cannot_change_past_features) ... ok
+test_knn_symmetric_no_self_loops (test_core.CoreTests.test_knn_symmetric_no_self_loops) ... ok
+test_label_permutation_is_not_a_transition (test_core.CoreTests.test_label_permutation_is_not_a_transition) ... ok
+test_missing_road_distances_not_edges (test_core.CoreTests.test_missing_road_distances_not_edges) ... ok
+test_split_remains_visible (test_core.CoreTests.test_split_remains_visible) ... ok
+test_weight_scale_invariance (test_core.CoreTests.test_weight_scale_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.011s
+
+OK

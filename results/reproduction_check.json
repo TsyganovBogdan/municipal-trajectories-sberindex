@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "memberships.csv",
+    "monthly_quality.csv",
+    "transition_events.csv",
+    "cluster_flows.csv",
+    "stability.csv",
+    "peers_december.csv",
+    "random_baselines_december.csv",
+    "selection_summary.csv",
+    "model_comparison_development.csv",
+    "analysis_arrays.npz:ids",
+    "analysis_arrays.npz:levels",
+    "analysis_arrays.npz:shares",
+    "analysis_arrays.npz:features",
+    "analysis_arrays.npz:labels",
+    "analysis_arrays.npz:support",
+    "analysis_arrays.npz:xy"
+  ],
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "ignored": [
+    "wall-clock execution time",
+    "output directory"
+  ],
+  "scope": "Two runs in the same Python/package/OS environment. Cross-platform bit identity is not claimed."
+}
