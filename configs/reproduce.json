@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "input_dir": "data/raw",
+  "output_dir": "results_reproduced",
+  "development_months": [
+    "2024-01",
+    "2024-03",
+    "2024-06"
+  ],
+  "validation_months": [
+    "2024-07",
+    "2024-08",
+    "2024-09"
+  ],
+  "confirmation_months": [
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "neighbors": [
+    20,
+    40
+  ],
+  "resolutions": [
+    0.4,
+    0.8,
+    1.2
+  ],
+  "baseline_clusters": [
+    4,
+    6,
+    8
+  ],
+  "graph_views": [
+    "profile",
+    "growth",
+    "combined"
+  ],
+  "reference_neighbors": 30,
+  "minimum_cluster_size": 20,
+  "allowed_cluster_count": [
+    3,
+    12
+  ],
+  "random_baselines": 20,
+  "stability_seeds": [
+    7,
+    19,
+    31,
+    43,
+    67
+  ],
+  "transition_support": 0.8,
+  "transition_min_effect": 0.5
+}

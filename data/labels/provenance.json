@@ -1,0 +1,15 @@
+{
+  "source": "https://raw.githubusercontent.com/YuliyaTorgasheva/spo_map/master/data/municipalities.geojson",
+  "retrieved": "2026-10-03",
+  "raw_sha256": "46b7ed9b8c271841b42477e92a8d9d91ed2c0f32d4d448023c5be5554761a183",
+  "fields": [
+    "territory_id",
+    "region_name",
+    "municipal_district_name_short",
+    "municipal_district_type",
+    "oktmo_base"
+  ],
+  "matched_ids": 2016,
+  "conflicting_ids": 0,
+  "purpose": "Optional unverified display labels only; not used for features or evaluation."
+}
