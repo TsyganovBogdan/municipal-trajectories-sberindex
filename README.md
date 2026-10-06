@@ -8,10 +8,10 @@
 
 |Материал|Файл|
 |-|-|
-|Описание проекта|[SUBMISSION\_RU.md](SUBMISSION_RU.md)|
-|Исследовательский отчёт|[PDF](reports/Report_RU.pdf), [Markdown](reports/Report_RU.md)|
-|Презентация|[PDF](reports/Presentation_RU.pdf), [PowerPoint](reports/Presentation_RU.pptx)|
-|Методические пояснения|[Discussion\_RU.md](reports/Discussion_RU.md)|
+|Описание проекта|[SUBMISSION.md](SUBMISSION.md)|
+|Исследовательский отчёт|[PDF](reports/Report.pdf), [Markdown](reports/Report.md)|
+|Презентация|[PDF](reports/Presentation.pdf), [PowerPoint](reports/Presentation.pptx)|
+|Методические пояснения|[Discussion.md](reports/Discussion.md)|
 |Интерактивная страница|[site/index.html](site/index.html)|
 
 HTML-файл открывается локально в браузере. На странице доступны поиск территории, выбор месяца, структура расходов, история группы и пять близких муниципалитетов.
