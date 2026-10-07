@@ -103,8 +103,8 @@ def make_report():
       'title':ParagraphStyle('title',fontName='DV-Bold',fontSize=28,leading=35,spaceAfter=22,textColor=colors.HexColor('#164b48')),
       'h':ParagraphStyle('h',fontName='DV-Bold',fontSize=18,leading=24,spaceAfter=17,textColor=colors.HexColor('#164b48')),
       'cell':ParagraphStyle('cell',fontName='DV',fontSize=8,leading=11,textColor=colors.HexColor('#1c3342'))}
-    doc=SimpleDocTemplate(str(ROOT/'reports/Report_RU.pdf'),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=43,bottomMargin=43,title='Муниципальные траектории',author='Муниципальные траектории')
-    story=[]; text=(ROOT/'reports/Report_RU.md').read_text();blocks=text.split('\n\n')
+    doc=SimpleDocTemplate(str(ROOT/'reports/Report.pdf'),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=43,bottomMargin=43,title='Муниципальные траектории',author='Муниципальные траектории')
+    story=[]; text=(ROOT/'reports/Report.md').read_text();blocks=text.split('\n\n')
     for b in blocks:
         b=b.strip()
         if not b:continue
@@ -164,7 +164,7 @@ def main():
     pd.DataFrame([{'min_support':s,'min_displacement':d,'events':int((ev.persistent_two_months&(ev.support_min>=s)&(ev.feature_displacement>=d)).sum())} for s in [.7,.8,.9] for d in [.25,.5,.75]]).to_csv(ROOT/'results/threshold_sensitivity.csv',index=False)
     figures(arr,profiles,quality,stability)
     make_report();make_viewer(arr,quality,profiles)
-    print('Built figures, reports/Report_RU.pdf and site/index.html')
+    print('Built figures, reports/Report.pdf and site/index.html')
 
 
 if __name__=='__main__':main()
