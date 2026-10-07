@@ -38,7 +38,7 @@ python -m unittest discover -s tests -v
 python -m src.pipeline --config configs/default.json
 ```
 
-В Windows окружение активируется командой `.venvScriptactivate`.
+В Windows окружение активируется командой `.\.venv\Scripts\Activate.ps1`.
 
 Повторный расчёт с сохранением опубликованных результатов в исходном каталоге:
 
