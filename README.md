@@ -12,7 +12,7 @@
 |Исследовательский отчёт|[PDF](reports/Report.pdf), [Markdown](reports/Report.md)|
 |Презентация|[PDF](reports/Presentation.pdf), [PowerPoint](reports/Presentation.pptx)|
 |Методические пояснения|[Discussion.md](reports/Discussion.md)|
-|Интерактивная страница|(https://tsyganovbogdan.github.io/municipal-trajectories-sberindex/site/)|
+|Интерактивная страница|https://tsyganovbogdan.github.io/municipal-trajectories-sberindex/site/|
 
 ## Результаты
 
