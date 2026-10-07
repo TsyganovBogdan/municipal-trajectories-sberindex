@@ -12,9 +12,7 @@
 |Исследовательский отчёт|[PDF](reports/Report.pdf), [Markdown](reports/Report.md)|
 |Презентация|[PDF](reports/Presentation.pdf), [PowerPoint](reports/Presentation.pptx)|
 |Методические пояснения|[Discussion.md](reports/Discussion.md)|
-|Интерактивная страница|[site/index.html](site/index.html)|
-
-HTML-файл открывается локально в браузере. На странице доступны поиск территории, выбор месяца, структура расходов, история группы и пять близких муниципалитетов.
+|Интерактивная страница|(https://tsyganovbogdan.github.io/municipal-trajectories-sberindex/site/)|
 
 ## Результаты
 
